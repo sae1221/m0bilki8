@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnSequential"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run Sequential Tasks" />
+
+    <Button
+        android:id="@+id/btnParallel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run Parallel Tasks"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Dog Image"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"/>
+</LinearLayout>
